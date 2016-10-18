@@ -80438,7 +80438,7 @@ var HomePage = (function () {
         });
     };
     HomePage = __decorate$111([
-        Component({template:/*ion-inline-start:"C:\Users\richard.cosgrove\Documents\GitHub\bggapp\src\pages\home\home.html"*/'<ion-header>\n  <ion-navbar color="danger">\n    <ion-title>\n      BGG Hot List\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <ion-list>\n    <button ion-item *ngFor="let game of (hot)" (click)="openGame(game.gameId)" >\n      <img class="preview" [src]="game.thumbnail" />\n      <h5 text-center>\n        {{game.name}} ({{game.yearPublished}})\n      </h5>\n    </button>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"C:\Users\richard.cosgrove\Documents\GitHub\bggapp\src\pages\home\home.html"*/,
+        Component({template:/*ion-inline-start:"C:\Users\richard.cosgrove\Documents\GitHub\bggapp\src\pages\home\home.html"*/'<ion-header>\n  <ion-navbar color="danger">\n    <ion-title>\n      BoardGameGeek\'s Hot List\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <ion-list>\n    <button ion-item *ngFor="let game of (hot)" (click)="openGame(game.gameId)" >\n      <img class="preview" [src]="game.thumbnail" />\n      <h5 text-center>\n        {{game.name}} ({{game.yearPublished}})\n      </h5>\n    </button>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"C:\Users\richard.cosgrove\Documents\GitHub\bggapp\src\pages\home\home.html"*/,
             selector: 'home'
         }), 
         __metadata$4('design:paramtypes', [NavController, Data])

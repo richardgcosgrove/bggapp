@@ -21123,6 +21123,11 @@ game .averageRating {
   float: right;
 }
 
+home .toolbar-title {
+  text-align: center;
+  width: 100%;
+}
+
 home .preview {
   display: block;
   margin: auto;
